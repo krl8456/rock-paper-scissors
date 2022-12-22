@@ -1,9 +1,16 @@
-
-
-function App() {
+import Container from "./Container";
+import Navbar from "./Navbar";
+import Score from "./Score";
+import Title from "./Title";
+const App = () => {
   return (
-    <h1>Hello world!</h1>
+    <Container>
+      <Navbar>
+        <Title />
+        <Score />
+      </Navbar>
+    </Container>
   );
-}
+};
 
 export default App;
